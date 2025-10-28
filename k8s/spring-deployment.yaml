@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
         - name: gestion-station-skii
-          image: rayenhamdi/gestion-station-skii:28
+          image: rayenhamdi/gestion-station-skii:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
